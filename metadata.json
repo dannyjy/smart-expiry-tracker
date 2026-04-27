@@ -1,0 +1,6 @@
+{
+  "name": "Smart Inventory & Expiry Tracker",
+  "description": "An automated product shelf-life monitoring platform for SMEs to reduce waste and optimize inventory using FEFO logic.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": []
+}
