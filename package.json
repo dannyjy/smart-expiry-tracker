@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "tsx server.ts",
-    "build": "vite build",
+    "dev": "node api.js && tsx server.ts",
+    "build": "node api.js && vite build",
     "preview": "vite preview",
-    "start": "node dist/server.cjs",
+    "start": "node api.js && node dist/server.cjs",
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit"
   },
